@@ -1,4 +1,4 @@
-public class EventListener implements Runnable{
+public class EventListener extends Thread implements Runnable{
 
     private String messageToListenFor;
     private String messageToReplyWith;
